@@ -5,67 +5,63 @@ header {
     top: 0;
     background: #e2e2e2;
     z-index: 1000;
-    border-bottom: 1px solid#000000 ;
+    border-bottom: 1px solid #000000;
 }
+
 .header {
     padding: 16px 16px;
 }
-.info-city-container>p {
+
+.info-city-container > p {
     color: #ffffff;
 }
 
-.header-logo::before{
+.header-logo::before {
     content: "";
     background: url(../img/MarkLogo.svg) no-repeat center;
     width: 25px;
     height: 25px;
     display: inline-block;
     transform: translateY(20%);
-
     margin-right: 8px;
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
-    
 }
 
-.header-logo{
+.header-logo {
     font-weight: 600;
     font-size: 23px;
     margin: auto 0;
     color: #000000;
 }
 
-
-
-.header-nav>a{
+.header-nav > a {
     display: inline-block;
     padding: 8px 28px;
     font-size: 16px;
     border: 1px solid black;
     text-decoration: none;
     border-radius: 6px;
-    border-color: black;
     transition: all 0.3s ease;
     cursor: pointer;
     color: #000;
 }
-
 
 .places-container {
     position: relative;
     justify-items: center;
 }
 
-.places-container h2{
+.places-container h2 {
     margin-top: 120px;
     margin-bottom: 8px;
     font-size: 36px;
 }
 
-.places-container p{
+.places-container p {
     color: #4b5563;
     font-size: 15px;
     margin-bottom: 40px;
@@ -82,31 +78,13 @@ header {
     border: 1.5px solid #3a3a3a;
     border-radius: 20px;
     overflow: hidden;
-
 }
-/* 
-.box-card h3,
-.box-card img,
-.box-card p,
-.box-card .btn-learn_more {
-    margin-bottom: 15px;
-}
-
-.box-card h3,
-.box-card p,
-.box-card .btn-learn_more {
-    margin-left: 5px;
-    margin-right: 5px;
-} */
-
 
 .box-card p {
-
     font-weight: 400;
     font-size: 16px;
     color: #4b5563;
-    margin: 0px 5px 30px 20px;   
-
+    margin: 0px 5px 30px 20px;
 }
 
 .box-card h3 {
@@ -118,54 +96,50 @@ header {
     justify-content: space-between;
     margin: 0 5px 15px 20px;
 }
-.btn-learn_more button{
+
+.btn-learn_more button {
     margin-right: 20px;
 }
-.btn-learn_more button img  {
+
+.btn-learn_more button img {
     height: 30px;
     width: 30px;
 }
 
-.btn-learn_more a{
+.btn-learn_more a {
     color: #ffffff;
     border-radius: 10px;
     width: 80%;
     height: 35px;
     background-color: #000000;
-
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
-.box-card>img{
+.box-card > img {
     display: block;
     width: 101%;
     height: auto;
     margin-bottom: 50px;
 }
 
-
-
-
-.goverment_services-container h2{
+.goverment_services-container h2 {
     margin-top: 190px;
     margin-bottom: 8px;
     font-size: 36px;
 }
 
-.goverment_services-container p{
+.goverment_services-container p {
     color: #4b5563;
     font-size: 15px;
     margin-bottom: 40px;
 }
 
-
 .gov-card h3 {
     margin-top: 10px;
     margin-bottom: 45px;
-} 
+}
 
 .gov-card p {
     margin-bottom: 9px;
@@ -203,23 +177,12 @@ header {
     border: 1px solid #4b5563;
 }
 
-
-
-
-
-
-
-
 .goverment_services-box {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 32px;
     margin-bottom: 30px;
 }
-
-
-
-
 
 .gov-card h3::before {
     content: "";
@@ -231,10 +194,6 @@ header {
     transform: translateY(20%);
 }
 
-
-
-
-
 .info-city {
     position: relative;
     background-image: url(../img/rzeszow.png);
@@ -242,20 +201,10 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
-/* .info-city::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.45);
-    z-index: 1;
-    
-} */
 
 .info-city .container {
     position: relative;
@@ -291,24 +240,21 @@ header {
 
 .info-city-btns-wrapper button:hover {
     color: #000000;
-    background: rgba(107, 107, 107,1);
+    background: rgba(107, 107, 107, 1);
 }
 
-
-
-
-
-.events-container h2{
+.events-container h2 {
     margin-top: 190px;
     margin-bottom: 8px;
     font-size: 36px;
 }
 
-.events-container p{
+.events-container p {
     color: #4b5563;
     font-size: 15px;
     margin-bottom: 40px;
 }
+
 .events-card {
     position: relative;
 }
@@ -317,8 +263,6 @@ header {
     position: absolute;
     top: 15px;
     right: 16px;
-
-
     background: #fff;
     border-radius: 12px;
     padding: 8px 12px;
@@ -326,9 +270,8 @@ header {
     font-weight: 600;
 }
 
-.card-date span{
+.card-date span {
     display: block;
-
 }
 
 .events-box {
@@ -350,10 +293,6 @@ header {
     margin: 30px 5px 15px 20px;
     border: 1px solid #4b5563;
 }
-
-
-
-
 
 .footer {
     background-color: #111827;
@@ -383,7 +322,6 @@ header {
     font-size: 19px;
     font-weight: 600;
     margin-bottom: 25px;
-
 }
 
 .social_media a {
@@ -391,7 +329,7 @@ header {
     color: #9ca3af;
 }
 
-.footer-container h3{
+.footer-container h3 {
     font-weight: 600;
     font-size: 24px;
     color: #fff;
