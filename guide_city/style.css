@@ -16,7 +16,7 @@ header {
 
 .header-logo::before{
     content: "";
-    background: url(/img/MarkLogo.svg) no-repeat center;
+    background: url(../img/MarkLogo.svg) no-repeat center;
     width: 25px;
     height: 25px;
     display: inline-block;
@@ -173,7 +173,7 @@ header {
 
 .card-address::before {
     content: "";
-    background: url(/img/mark.svg) no-repeat center;
+    background: url(../img/mark.svg) no-repeat center;
     width: 15px;
     height: 15px;
     display: inline-block;
@@ -183,7 +183,7 @@ header {
 
 .card-time::before {
     content: "";
-    background: url(/img/clock.svg) no-repeat center;
+    background: url(../img/clock.svg) no-repeat center;
     width: 15px;
     height: 15px;
     display: inline-block;
@@ -223,7 +223,7 @@ header {
 
 .gov-card h3::before {
     content: "";
-    background: url(/img/Doc.svg) no-repeat center;
+    background: url(../img/Doc.svg) no-repeat center;
     width: 32px;
     height: 32px;
     display: inline-block;
@@ -237,7 +237,7 @@ header {
 
 .info-city {
     position: relative;
-    background-image: url(./img/rzeszow.png);
+    background-image: url(../img/rzeszow.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
